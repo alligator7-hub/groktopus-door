@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alligator7-hub.github.io/groktopus-door/sitemap.xml
