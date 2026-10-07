@@ -115,6 +115,8 @@ i.run { color: var(--run); }
 .tile .big { font-size: 22px; font-weight: 800; margin-top: 6px; letter-spacing: -.01em; color: #eef4f8; }
 .tile .big.muted { color: var(--text-mute); }
 .tile .sub { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+.tile.hold-tile { border-color: rgba(242, 184, 75, 0.45); }
+.tile.hold-tile .big { color: var(--sit); letter-spacing: .12em; }
 @media (max-width: 1000px) { .tiles { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, 1fr); } .tile .big { font-size: 19px; } }
 
